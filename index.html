@@ -16,13 +16,14 @@ body {
 }
 header {
   grid-area: header;
-  background-color: #C0C0C0;
+  background-color: #1C1C1C;
   font-family: 'Yeon Sung', cursive;;
-
+  color: white;
 }
 
 header p {
   text-align: center;
+ 
 }
 section {
     display: grid;
@@ -38,6 +39,7 @@ section {
     grid-templeate-columns: 40% 60%;
     grip-gap: 5px;
     grid-templeate-rows: auto;
+    text-align: center;
   }
 .profile-photo {
   background-color: white;
@@ -79,11 +81,34 @@ footer {
 footer p {
   text-align: center;
 }
+
+.botao01{
+     background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     border: 1px solid #CCCCCE;
+     border-radius: 115px;
+     box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                   0 2px 7px rgba(0, 0, 0, 0.2);
+     color: black;
+     display: block;
+     font-family: "Hind";
+     font-size: 10x;
+     font-weight: bold;
+     line-height: 15px;
+     text-align: center;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-shadow:1px 1px 0 #FFF;
+     padding: 5px 15px;
+     position: relative;
+     width: 80px;
+    }
+
  </style>
  
-</head>
-<body>
-</body>
 <head><link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css?family=Supermercado+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
@@ -93,9 +118,12 @@ footer p {
   <p>Jhonatan A. Cossetti</p>
   <nav>
     <ul>
-      <li> Home </li>
-      <li> Sobre </li>
-      <li> Portifólio </li>
+      <li> <a href="#" class="botao01">Home</a>
+    </div> </li>
+      <li>  <a href="#" class="botao01">Sobre</a>
+    </div> </li>
+      <li>  <a href="#" class="botao01">Portifólio</a> <link href=https://github.com/cossettijhonatan?tab=repositories>
+</div> </li>
     </ul>
   </nav>
 </header>
@@ -113,7 +141,7 @@ footer p {
  
 </main>
 <footer>
-  <p> By Jhonatan Cossetti</p> 
+  <p> By Jhonatan Cossetti 2019</p> 
 </footer>
 	
 </html>>
