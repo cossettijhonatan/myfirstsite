@@ -4,7 +4,43 @@
 	<title> Jhonatan Site</title>
 	<style>
 		
-		body {
+		<head><link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Supermercado+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+</head>
+<header>
+  <p>Home</p>
+  <nav>
+    <ul>
+      <li> <a href="https://cossettijhonatan.github.io/myfirstsite" class="botao01">Home</a>
+    </div> </li>
+      <li>  <a href="#" class="botao01">Sobre</a> 
+    </div> </li>
+      <li>  <a href="https://github.com/cossettijhonatan?tab=repositories" class="botao01">Portifólio</a>
+</div> </li>
+    </ul>
+  </nav>
+</header>
+
+<aside>
+  <p> Sobre esse site: </p> <p>Esse site tem como objetivo mostrar meu primeiro site apenas, estou aprendendo, por isso não há objetivos comerciais ou profissionais.</p>
+</aside>
+
+<main> 
+  <section class= "welcome"> <p> Olá, tudo bem? Fique à vontade! </p>
+  <p> Sobre mim </p></section>
+  <section class= "about">
+    <p> <strong>Nasci em Cachoeiro de Itapemirim, no estado do Espírito Santo em 2000. Filho de agricultor e dona de casa, consegui através do Enem, mudar minha realidade entrando em uma universidade pública de qualidade.</strong></p></section>
+  <section class="profile-photo"> <center> <img src= "https://scontent.fcaw3-1.fna.fbcdn.net/v/t1.0-1/p320x320/67562381_2354061448013148_8254924527276916736_n.jpg?_nc_cat=101&_nc_oc=AQnaZMZFollm7F2jO8mylLazsIYN8hy0AXAZh8Jd5YYNeHnsjadB2nryA7eAeQ0lsjY&_nc_ht=scontent.fcaw3-1.fna&oh=ed87f2f71e1d1a42043b925ed0e53070&oe=5E4D161F"> </center></section>
+  <section class= "profile-description"> <strong> <center> Ah e você deve estar se perguntando, como você se chama? Meu nome é Jhonatan, tenho 19 anos e atualmente estou no 4º período de Ciência da Computação na Universidade Estadual do Norte Fluminense. </center> </strong> </section>
+ 
+</main>
+<footer>
+  <p> By Jhonatan Cossetti 2019</p> 
+</footer>
+ </style>
+body {
   display: grid;
   grid-template-columns: auto;
   grid-template-areas:
@@ -17,45 +53,54 @@
 }
 header {
   grid-area: header;
-  background-color: #1C1C1C;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSY7ZyI_pGI8sQPwAA3sV3b0xcZ15OaRAy0Zh0i0z1K4S9X5u7a");
   font-family: 'Yeon Sung', cursive;;
   color: white;
+
 }
 
 header p {
+  font-size: 50px;
   text-align: center;
  
 }
 section {
     display: grid;
+ 
   }
 .welcome {
-  background-color: #DCDCDC;
+  background-color:#1C1C1C;
   grid-templeate-colomns: auto;
   grid-teampleate-rows: 400px;
   text-align: center;
+  color: white;
 }
   .about {
-    background-color: #DCDCDC;
+    background-image: url(https://www2.ufjf.br/ufjf/wp-content/uploads/sites/3/2015/12/15953650942_fdcfcfd6fe_k-1.jpg);
+    color: white;
     grid-templeate-columns: 40% 60%;
     grip-gap: 5px;
     grid-templeate-rows: auto;
     text-align: center;
   }
 .profile-photo {
-  background-color: white;
+  background-image: url(https://www2.ufjf.br/ufjf/wp-content/uploads/sites/3/2015/12/15953650942_fdcfcfd6fe_k-1.jpg);
+ 
 }
 
 img {
-  border-radius: 50%;
+  border-radius: 80%;
 }
 
 .profile-description {
   padding: 10px 20px;
-  background-color: #DCDCDC;
+  color: white;
+  background-image: url(https://www2.ufjf.br/ufjf/wp-content/uploads/sites/3/2015/12/15953650942_fdcfcfd6fe_k-1.jpg);
+ 
 }
 
 aside {
+  background-image: url(https://vanzolini.org.br/weblog/wp-content/uploads/sites/2/2019/04/Funda%C3%A7%C3%A3o-Vanzolini-smart-city.jpg);
   padding: 5px 15px;
   display: grid;
   grid-templeate-columns: 40% 60%;
@@ -76,11 +121,12 @@ footer {
   grid-area: footer;
   background-color:#1C1C1C;
   font-family: 'Supermercado One', cursive;
-  border-radius: 5
+  border-radius: 5;
 }
 
 footer p {
   text-align: center;
+
 }
 
 .botao01{
@@ -106,40 +152,5 @@ footer p {
      position:center;
      width: 80px;
     }
- </style>
-<head><link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css?family=Supermercado+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
-</head>
-<header>
-  <p>Jhonatan A. Cossetti</p>
-  <nav>
-    <ul>
-      <li> <a href="https://cossettijhonatan.github.io/home/" class="botao01">Home</a>
-    </div> </li>
-      <li>  <a href="#" class="botao01">Sobre</a>
-    </div> </li>
-      <li>  <a href="https://github.com/cossettijhonatan?tab=repositories" class="botao01">Portifólio</a>
-</div> </li>
-    </ul>
-  </nav>
-</header>
-
-<aside>
-  <p> Sobre esse site: </p> <p>Esse site tem como objetivo mostrar meu primeiro site apenas, estou aprendendo e não há objetivos comerciais ou profissionais.</p>
-</aside>
-
-<main> 
-  <section class= "welcome"> Olá seja bem-vindo ao meu primeiro site web, nele você vai conhecer melhor sobre mim. Fique à vontade!</section>
-  <section class= "about"> <p> Sobre mim </p> 
-    <p>Nasci em Cachoeiro de Itapemirim, no estado do Espírito Santo em 2000. Filho de agricultor e dona de casa, consegui através do Enem, mudar minha realidade entrando em uma universidade pública de qualidade.</p></section>
-  <section class="profile-photo"> <center> <img src= "https://scontent.fcaw3-1.fna.fbcdn.net/v/t1.0-1/p320x320/67562381_2354061448013148_8254924527276916736_n.jpg?_nc_cat=101&_nc_oc=AQnaZMZFollm7F2jO8mylLazsIYN8hy0AXAZh8Jd5YYNeHnsjadB2nryA7eAeQ0lsjY&_nc_ht=scontent.fcaw3-1.fna&oh=ed87f2f71e1d1a42043b925ed0e53070&oe=5E4D161F"> </center></section>
-  <section class= "profile-description">Ah e você deve estar se perguntando, como você se chama? Meu nome é Jhonatan, tenho 19 anos e atualmente estou no 4º período de Ciência da Computação na Universidade Estadual do Norte Fluminense. </section>
- 
-</main>
-<footer>
-  <p> By Jhonatan Cossetti 2019</p> 
-</footer> 
 
 </html>>
